@@ -24,6 +24,26 @@ header {
   border-radius: 5px;
 }
 
+#activities-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#activities-toolbar input[type="text"],
+#activities-toolbar select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#activities-toolbar select {
+  min-width: 140px;
+}
+
 header h1 {
   margin-bottom: 10px;
 }
